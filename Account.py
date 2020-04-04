@@ -1,6 +1,5 @@
 import time
 import os
-import urllib3
 
 kullanıcı="furkan"
 sifre="123ft"
@@ -55,10 +54,8 @@ Hesap Numarası:{}
     elif Giris =="2":
         BakiyeIslem()
         İslemler()
-    elif Giris =="3":
-        Döviz()
 
-
+        
 def BakiyeIslem():
 
     print("""[1]Para Çekme
